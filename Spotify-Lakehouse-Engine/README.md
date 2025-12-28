@@ -1,7 +1,5 @@
 # 🎧 Spotify Lakehouse: Hybrid Data Engine
 
-![Dashboard Preview](assets/dashboard_toggle_preview.png)
-
 ## Project Overview
 A **Serverless Data Lakehouse** that extracts personal streaming history from the Spotify API, transforms it using **PySpark**, and visualizes behavioral patterns in a **Streamlit** dashboard.
 
@@ -24,3 +22,9 @@ A **Serverless Data Lakehouse** that extracts personal streaming history from th
 3.  Add your Spotify Credentials (`SPOTIFY_CLIENT_ID`, `SPOTIFY_CLIENT_SECRET`) to Colab Secrets.
 4.  Run the pipeline to ingest Real + Synthetic data.
 5.  Launch the dashboard and use the **Sidebar Toggle** to compare datasets.
+
+![Dashboard Preview](assets/dashboard_toggle_preview.png)
+![Dashboard Preview](assets/real_data-1.png)
+![Dashboard Preview](assets/real_data-2.png)
+![Dashboard Preview](assets/synthetic_data-1.png)
+![Dashboard Preview](assets/synthetic_data-2.png)
